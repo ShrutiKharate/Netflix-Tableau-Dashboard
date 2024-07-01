@@ -1,0 +1,49 @@
+Netflix Tableau Visualization
+
+**Objective:**
+- Create an interactive dashboard to visualize and analyze Netflix content data.
+
+**Tools Used:**
+- Tableau for data visualization
+- CSV file containing Netflix data
+
+**Data Overview:**
+- 12 fields, over 6,000 rows
+- Fields include: show ID, type (movie/TV show), title, director, cast, date added, release year, rating, duration, categories, description, and country.
+
+**Key Steps and Features:**
+
+1. **Data Import and Setup:**
+   - Imported CSV file into Tableau.
+
+2. **Visualizations:**
+   - **Movies and TV Shows by Year:**
+     - Line chart showing count of movies and TV shows added per year.
+     - Filtered out null values and formatted chart to match Netflix's color scheme.
+   - **Geographical Distribution:**
+     - Map showing number of movies and TV shows by country.
+     - Used a filled map to represent data, color-coded by count.
+   - **Top 10 Genres:**
+     - Bar chart showing the top 10 movie/TV show genres by count.
+     - Applied filters and sorted data to highlight top genres.
+   - **Movies and TV Shows Distribution:**
+     - Packed bubble chart showing distribution and percentage of movies vs. TV shows.
+   - **Ratings Distribution:**
+     - Bar chart displaying count of movies/TV shows by rating.
+
+3. **Individual Movie/TV Show Details:**
+   - Added filters to display detailed information (description, date added, duration, rating, release year, genre) for selected movies or TV shows.
+   - Implemented dropdown filters to dynamically update relevant details based on selection.
+
+4. **Export and Presentation:**
+   - Exported the final dashboard as an image for presentation and reporting purposes.
+
+**Skills Demonstrated:**
+- Data cleaning and preparation.
+- Creating various types of visualizations in Tableau.
+- Implementing filters and interactive elements.
+- Dashboard design and formatting.
+- Data analysis and interpretation.
+
+**Outcome:**
+- Developed an informative and visually appealing dashboard to analyze Netflix content, providing insights into content distribution by year, country, genre, and rating.
